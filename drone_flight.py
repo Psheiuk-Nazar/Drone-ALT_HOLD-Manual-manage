@@ -127,7 +127,7 @@ if __name__ == "__main__":
     way_to_point(point_B)
     condition_yaw(350)
     time.sleep(5)
-    print("Mission to Complete --> I'm pretty a BOY")
+    print("Mission to Complete --> I'm a pretty BOY")
     print(
         f"Vehicle Yaw: {vehicle.heading}, Vehicle position {vehicle.location.global_frame}, Vehicle mode: {vehicle.mode}")
     vehicle.close()

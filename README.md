@@ -42,8 +42,6 @@ In the first terminal, start the SITL simulation with the specified home locatio
 ```terminal
     dronekit-sitl copter-3.3 --home=50.450739,30.461242,0,180
 ```
-
-
 3. Start MAVProxy
 In the second terminal, start MAVProxy with the specified configuration:
 ```terminal
@@ -57,3 +55,4 @@ In the third terminal, run the drone_flight.py script with the specified connect
 ```terminal
     python drone_flight.py --connect udp:127.0.0.1:14551
 ```
+Video: https://www.loom.com/share/d83187dc6ca74230919a755c15ce6dd7?sid=98f133f7-7b8b-44f3-b885-b3e2c76ec5b7
