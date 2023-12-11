@@ -1,0 +1,6 @@
+venv
+mav.parm
+mav.tlog
+mav.tlog.raw
+.idea
+__pycache__
